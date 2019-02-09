@@ -30,4 +30,4 @@ apt install -y python python-pip
 pip install docker-compose
 
 echo $(docker --version)
-echo $(docker-compose --version)
+echo $(docker-compose --v)
