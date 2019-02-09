@@ -26,8 +26,8 @@ sudo apt install docker-ce
 sudo systemctl enable docker
 sudo systemctl start docker
 
-apt install -y python python-pip
-pip install docker-compose
+sudo apt install -y python python-pip
+sudo pip install docker-compose
 
 echo $(docker --version)
 echo $(docker-compose -v)
