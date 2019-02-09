@@ -31,5 +31,3 @@ pip install docker-compose
 
 echo $(docker --version)
 echo $(docker-compose --version)
-
-
