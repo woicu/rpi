@@ -29,5 +29,5 @@ sudo systemctl start docker
 sudo apt install -y python python-pip
 sudo pip install docker-compose
 
-echo $(docker --version)
-echo $(docker-compose -v)
+echo $(docker -v)
+echo $(docker-compose --version)
