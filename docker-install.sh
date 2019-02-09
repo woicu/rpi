@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#original instructions https://withblue.ink/2017/12/31/yes-you-can-run-docker-on-raspbian.html
+# Original instructions https://withblue.ink/2017/12/31/yes-you-can-run-docker-on-raspbian.html
 
 # Install some required packages first
 sudo apt update
@@ -26,8 +26,8 @@ sudo apt install docker-ce
 sudo systemctl enable docker
 sudo systemctl start docker
 
-apt install -y python python-pip
-pip install docker-compose
+sudo apt install -y python python-pip
+sudo pip install docker-compose
 
-echo $(docker --version)
+echo $(docker -v)
 echo $(docker-compose --version)
