@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#original instructions https://withblue.ink/2017/12/31/yes-you-can-run-docker-on-raspbian.html
+# Original instructions https://withblue.ink/2017/12/31/yes-you-can-run-docker-on-raspbian.html
 
 # Install some required packages first
 sudo apt update
